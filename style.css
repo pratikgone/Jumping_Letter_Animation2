@@ -1,0 +1,267 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#qr-input{
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#qr-button{
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#qr-img{
+    display: block;
+   
+
+} */
+
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#password{
+    font-size: 2rem;
+    padding: 15px;
+
+} */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+.container{
+        width: 500px;
+        height: 350px;
+        background-color: white;
+        box-shadow: 0 0 10px black;
+        position: relative;
+}
+
+#question{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+ul{
+    margin-left: 30px;
+    list-style: none;
+    
+}
+
+li{
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#submit{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: goldenrod;
+    border: none;
+    font-size: 1.5rem;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: green;
+} */
+
+/* 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.container{
+    cursor: pointer;
+}
+
+span{
+    font-size: 11rem;
+    color: blue;
+    font-weight: bolder;
+    line-height: 1;
+    display: inline-block;
+}
+
+span.active{
+    animation: jump 2s ease-in-out;
+}
+
+@keyframes jump{
+    0%{
+        transform: scale(1) translate(0,0) rotate(180deg);
+    }
+    100%{
+        transform: scale(2.5) translate(0,-150px) rotate(0deg);
+    }
+} */
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+h2{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin-left: 30px;
+}
+
+li{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+#submit{
+    font-size: 1.5rem;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.container{
+    cursor: pointer;
+}
+
+span{
+    color: purple;
+    font-size: 11rem;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+span.active{
+    animation: jump 2s ease-in-out;
+
+}
+
+@keyframes jump{
+    0%{
+        transform: scale(1) translate(0,0) rotate(180deg);
+
+    }
+    100%{
+         transform: scale(2.5) translate(0,-150px) rotate(0deg);
+    }
+}
